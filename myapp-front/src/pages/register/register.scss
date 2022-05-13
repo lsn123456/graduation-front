@@ -1,0 +1,27 @@
+.page-register {
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 100px 20px 0 20px;
+    background-color: rgb(245, 247, 250);
+
+    .rigisterbtn{
+        background-color:#008b8b;
+        border-radius: 8px;
+        color: #fff;
+    }
+   .adm-list-header{
+       margin-left: 5px;
+   }
+  
+    a{
+        text-decoration: none;
+        margin-left: 12px;
+        color:#008b8b;
+    }
+    .adm-form-item-label .adm-form-item-required-asterisk{
+        left:-0.2em;
+    }
+    .adm-form-item-label{
+        padding-left: 12px;
+    }
+}

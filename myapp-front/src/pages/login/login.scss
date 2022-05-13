@@ -1,0 +1,23 @@
+.page-login {
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 100px 20px 0 20px;
+    background-color: rgb(245, 247, 250);
+    .loginbtn{
+        background-color:#008b8b;
+        border-radius: 8px;
+        color: #fff;
+    }
+   .adm-list-header{
+       margin-left: 5px;
+   }
+  
+    a{
+        text-decoration: none;
+        margin-left: 12px;
+        color:#008b8b;
+    }
+    input#phone.adm-input-element{
+        background: #fff!important;
+    }
+}

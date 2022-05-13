@@ -1,0 +1,15 @@
+.page-abroad{
+    .link{
+        display: flex;
+        .continents{
+            flex:1;
+            text-align: center;
+            height: 20px;
+            line-height: 20px;
+        }
+        .continents:focus{
+            color:	#0000AA
+        }
+    }
+
+}

@@ -1,0 +1,39 @@
+.page-information{
+
+    a{
+        color: #333;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    padding-bottom: 50px;
+   
+
+    .echarts{
+        margin-top: 15px;
+        width: 90%;
+        margin-left: 3%;
+      
+    }
+    .infotabcontanter{
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        display: flex;
+        .infotab{
+            flex:1;
+        }
+        .infotab:focus{
+            color:#0000AA;
+        }
+    
+    }
+    .adm-collapse-panel-header .adm-list-item-content-main{
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    .adm-collapse-panel-content{
+        padding: 0px 15px;
+    }
+}
+
+

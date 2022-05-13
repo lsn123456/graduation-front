@@ -1,0 +1,58 @@
+.todo-page {
+    // margin: 40rpx auto;
+    margin: 20px auto;
+    .adm-list-header,
+    .adm-input-element {
+        font-size: 14px !important;
+    }
+    .btn {
+        background-color: #008b8b;
+        border-radius: 8px;
+    }
+    .adm-radio {
+        --icon-size: 20px;
+        --font-size: 14px;
+        --gap: 10px;
+    }
+    .adm-form .adm-form-footer {
+        padding: 10px 5vw;
+    }
+    .adm-list-item-content-main {
+        padding: 12px 8vw;
+    }
+    .adm-list-item{
+        padding-left: 0;
+    }
+
+    .diolog{
+        background-color: #F8F8FF;
+        width: 250px;
+        // height: 300px;
+        left:17%;
+        top:15%;
+        position: absolute;
+        z-index: 10000;
+        border-radius: 10px;
+        .title{
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 500;
+            color:#666;
+        }
+        .checkform{
+           
+           
+          
+            // margin: 30px auto;
+           
+        }
+        .adm-list-body-inner{
+            background-color: #F8F8FF;
+            border-radius: 10px;
+        }
+    }
+   
+    
+}

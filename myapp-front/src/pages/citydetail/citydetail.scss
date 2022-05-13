@@ -1,0 +1,78 @@
+.page-citydetail {
+    background-color: #f5f5f5;
+    overflow: hidden;
+    .local {
+        height: 30px;
+        line-height: 30px;
+        padding-left: 20px;
+        margin-top: 10px;
+        color:#008b8b;
+        > div {
+            color:#008b8b;
+            display: inline-block;
+        }
+    }
+    .head {
+        display: flex;
+        margin: 10px 15px;
+        height: 70px;
+        padding: 10px 0;
+        background-color: #fff;
+        border-radius: 4px;
+        box-shadow: 0 4px 15px 1px rgba(0, 0, 0, 0.1);
+        .item {
+            flex: 1;
+            text-align: center;
+
+            .title {
+                height: 30px;
+                line-height: 30px;
+            }
+            .count {
+                height: 40px;
+                line-height: 40px;
+            }
+        }
+    }
+    .addr {
+        display: flex;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        // padding: 0 10px;
+        // flex-direction: row;
+        .item {
+            flex: 1;
+        }
+    }
+    .detail {
+        a {
+            text-decoration: none;
+        }
+        .adm-list-item{
+            padding-left:0;
+        }
+        .adm-list-item-content-main {
+            width: 25vw;
+            flex: none;
+            padding-left: 0px;
+            // margin-left: 12px;
+            text-align: center;
+            font-size: 14px;
+        }
+        .adm-list-item-content-extra {
+            padding-left: 0;
+        }
+        .content {
+            // display: flex;
+            width: 75vw;
+            height: 45px;
+            line-height: 45px;
+            text-align: center;
+            > div {
+                display: inline-block;
+                width: 25vw;
+            }
+        }
+    }
+}

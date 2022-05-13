@@ -1,0 +1,33 @@
+.page-notice {
+    font-size: 30px;
+    a {
+        text-decoration: none;
+        font-size: 14px;
+        color: #333;
+    }
+    .head {
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        display: flex;
+        .news,
+        .notice {
+            flex: 1;
+        }
+        .notice {
+            color: #388e8e;
+            position: relative;
+            // border-bottom: 2px solid #388e8e;
+        }
+        .notice::after {
+            position: absolute;
+            margin-left: -68px;
+            bottom: 0;
+            content: "";
+            width: 80px;
+            height: 3px;
+            background-color: #388e8e;
+            // margin: 0 auto;
+        }
+    }
+}

@@ -1,0 +1,92 @@
+.page-domestic {
+    background-color: #f5f5f5;
+    overflow: hidden;
+    .time{
+        font-size: 12px;
+        color:#aaa;
+    }
+    .contry {
+        margin: 10px 15px;
+        // margin-top: 0;
+        height: 130px;
+        border-radius: 4px;
+        // box-shadow: 0 4px 15px 1px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        overflow: hidden;
+        .total {
+            font-size: 16px;
+            margin: 10px 0 10px 15px;
+        }
+
+        .grid {
+            display: flex;
+            .grid-item {
+                flex: 1;
+                height: 60px;
+                display: inline-block;
+                text-align: center;
+                padding: 10px 5px;
+                .title {
+                    font-size: 16px;
+                    font-weight: 700;
+                    height: 30px;
+                    line-height: 30px;
+                }
+                .confirm {
+                    color: #daa520;
+                }
+                .heal {
+                    color: #3cb371;
+                }
+                .dead {
+                    color: #cd3333;
+                }
+                .newadd {
+                    color: #4f94cd;
+                }
+            }
+        }
+    }
+    .addr {
+        display: flex;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        // padding: 0 10px;
+        // flex-direction: row;
+        .item {
+            flex: 1;
+        }
+    }
+    .detail {
+        a {
+            text-decoration: none;
+            color: #4f94cd;
+        }
+        .adm-list-item{
+            padding-left:0;
+        }
+        .adm-list-item-content-main {
+            width: 25vw;
+            flex: none;
+            padding-left: 0px;
+            // margin-left: 12px;
+            text-align: center;
+        }
+        .adm-list-item-content-extra {
+            padding-left: 0;
+        }
+        .content {
+            // display: flex;
+            width: 75vw;
+            height: 45px;
+            line-height: 45px;
+            text-align: center;
+            > div {
+                // flex: 1;
+                display: inline-block;
+                width: 25vw;
+            }
+        }
+    }
+}
